@@ -8,7 +8,8 @@ function App() {
       <h1>Complete Frontend Dev and Deployment LifeCycle</h1>
       <Button onClick={() => {alert(formatCurrency(12345))}} />
       <p>Some new feature!</p>
-      <div >something</div>
+      <div onClick={() => {}}>something</div>
+      <p>Again some new fixes</p>
     </>
   )
 }
